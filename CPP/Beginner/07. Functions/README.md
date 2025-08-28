@@ -1,16 +1,3 @@
-# Index
-
-- [Exercise](#exercise-7-functions)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [Functions](#functions)
-    - [Header files](#header-files)
-        - [Safe include](#safe-include)
-        - [Code documentation](#code-documentation)
-    - [Code compilation](#code-compilation)
-
 # Exercise 7: Functions
 ## Objective
 Learn how to define, declare, and use functions in C++.

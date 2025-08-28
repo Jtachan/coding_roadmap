@@ -1,11 +1,3 @@
-# Index
-
-- [Exercise](#exercise-10-statistical-analysis-of-numbers)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Steps](#steps)
-- [C++ theory](#c-theory)
-
 # Exercise 10: Statistical Analysis of Numbers
 
 ## Objective

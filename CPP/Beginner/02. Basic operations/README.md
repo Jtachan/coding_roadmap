@@ -1,13 +1,3 @@
-# Index
-
-- [Exercise](#exercise-2-basic-arithmetic-operations)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [Variables](#types-of-variables)
-    - [Operations](#operations-with-variables)
-
 # Exercise 2: Basic Arithmetic Operations
 ## Objective
 Learn how to perform basic arithmetic operations and work with different data types.

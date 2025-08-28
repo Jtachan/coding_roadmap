@@ -1,11 +1,3 @@
-# Index
-
-- [Exercise](#exercise-13-implementing-polymorphism-with-shapes)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-
 # Exercise 13: Implementing Polymorphism with Shapes
 
 ## Objective

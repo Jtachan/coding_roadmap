@@ -1,12 +1,3 @@
-# Index
-
-- [Exercise](#exercise-3-grading-system)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [Variables](#if-else-conditions)
-
 # Exercise 3: Grading System
 ## Objective
 

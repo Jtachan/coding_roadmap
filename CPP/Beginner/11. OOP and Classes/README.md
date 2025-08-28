@@ -1,12 +1,3 @@
-# Index
-
-- [Exercise](#exercise-11-implement-a-simple-bankaccount-class)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-    - [Hints](#hints)
-- [C++ theory](#c-theory)
-
 # Exercise 11: Implement a Simple BankAccount Class
 ## Objective
 Create a BankAccount class that represents a simple bank account with basic operations like depositing money, withdrawing money, and checking the balance.

@@ -1,12 +1,3 @@
-# Index
-
-- [Exercise](#exercise-8-file-io-operations)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Hints](#hints)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-
 # Exercise 8: File I/O Operations
 ## Objective
 Practice reading from and writing to files in C++. This exercise will help you understand how to handle file streams, manage file input/output, and incorporate error handling.

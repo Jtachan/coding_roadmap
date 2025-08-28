@@ -1,13 +1,3 @@
-# Index
-
-- [Exercise](#exercise-5-sum-of-an-array)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [for loop](#for-loop)
-    - [Arrays](#arrays)
-
 # Exercise 5: Sum of an Array
 ## Objective
 Learn how to work with arrays and loops in C++.

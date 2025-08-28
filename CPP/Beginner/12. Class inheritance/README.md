@@ -1,12 +1,3 @@
-# Index
-
-- [Exercise](#exercise-12-inheritance-in-c)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Hints](#hints)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-
 # Exercise 12: Inheritance in C++
 
 ## Objective

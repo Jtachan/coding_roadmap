@@ -1,12 +1,3 @@
-# Index
-
-- [Exercise](#exercise-1-basic-input-and-output)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [Console](#using-the-console)
-
 # Exercise 1: Basic Input and Output
 
 ## Objective

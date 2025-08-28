@@ -1,13 +1,3 @@
-# Index
-
-- [Exercise](#exercise-4-number-guessing-game)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [While loop](#while-loop)
-    - [do-while loop](#do-while-loop)
-
 # Exercise 4: Number Guessing Game
 
 ## Objective

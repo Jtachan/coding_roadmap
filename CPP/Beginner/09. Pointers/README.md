@@ -1,11 +1,3 @@
-# Index
-
-- [Exercise](#exercise-9-understanding-pointers)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-
 # Exercise 9: Understanding Pointers
 ## Objective
 This exercise will help you get familiar with pointers by manipulating them in different ways.

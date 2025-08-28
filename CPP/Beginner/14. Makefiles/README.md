@@ -1,10 +1,3 @@
-# Index
-
-- [Exercise](#exercise-14-makefiles)
-    - [Objective](#objective)
-    - [Task](#task)
-- [C++ theory](#c-theory)
-
 # Exercise 14: Makefiles
 
 ## Objective

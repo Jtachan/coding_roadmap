@@ -1,15 +1,3 @@
-# Index
-
-- [Exercise](#exercise-6-robust-user-input-with-error-handling)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Expected result](#expected-result)
-- [C++ theory](#c-theory)
-    - [Stream flags](#stream-flags)
-      - [Cin.good()](#stdcingood)
-      - [Handling invalid inputs](#handling-invalid-inputs)
-
-
 # Exercise 6: Robust User Input with Error Handling
 ## Objective
 Learn how to handle errors gracefully, particularly when dealing with user input.

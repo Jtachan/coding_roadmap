@@ -1,10 +1,3 @@
-# Index
-
-- [Exercise](#exercise-14-makefiles)
-    - [Objective](#objective)
-    - [Task](#task)
-- [C++ theory](#c-theory)
-
 # Exercise 15: Building a Library Management System
 In this exercise, you will create a simple library management system using classes, inheritance, and polymorphism. The system will manage a collection of books and allow users to perform basic operations like adding, listing, and searching for books.
 

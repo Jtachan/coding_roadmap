@@ -1,16 +1,3 @@
-# Index
-
-- [Exercise](#exercise-0-hello-world)
-    - [Objective](#objective)
-    - [Task](#task)
-    - [Hints](#hints)
-- [C++ theory](#c-theory)
-    - [Coding in C++](#coding-in-c)
-    - [Compiling & building](#compiling--building)
-- [Environment setup](#environment-setup)
-    - [Code editor](#code-editor-vs-code)
-    - [Make](#make-for-windows)
-
 # Exercise 0: Hello World
 
 ## Objective
