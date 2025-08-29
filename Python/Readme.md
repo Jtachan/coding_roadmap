@@ -23,3 +23,4 @@ Each exercise is defined with a 'readme' file, containing the following sections
 
 - Begginer
     - [00: Getting started (hello world)](./Beginner/00.%20Getting%20started/Readme.md)
+    - [01: Basic input/output](./Beginner/01.%20Basic%20IO/Readme.md)
