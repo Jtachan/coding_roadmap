@@ -12,3 +12,4 @@ Each language's roadmap is organized by different exercises (each one in its own
 ## Current supported languages
 
 - [C/C++](CPP)
+- [Rust](rust)
