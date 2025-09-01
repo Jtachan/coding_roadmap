@@ -1,0 +1,7 @@
+Book:Harry Potter and the Philosopher's Stone,J.K. Rowling,978-0747532699
+EBook:The Jungle Book,Rudyard Kipling,978-1503215678,1.5
+Book:To Kill a Mockingbird,Harper Lee,978-0-06-112008-4
+Book:1984,George Orwell,978-0-452-28423-4
+Book:The Great Gatsby,F. Scott Fitzgerald,978-0-7432-7356-5
+EBook:The Pragmatic Programmer,Andrew Hunt & David Thomas,978-0135957059,4.2
+EBook:Clean Code,Robert C. Martin,978-0132350884,3.8
