@@ -7,8 +7,10 @@ Each language's roadmap is organized by different exercises (each one in its own
 - A small exercise to practice what is new to learn, as well as using previous knowlege.
 - The program file with the solution to the exercise.
 
----
-
 ## Current supported languages
 
-- [C/C++](CPP)
+Here are all the supported languages with their levels.
+Consider also looking into other branches for unfinished set of exercises.
+
+- [**C/C++**](CPP)
+  - Beginner
