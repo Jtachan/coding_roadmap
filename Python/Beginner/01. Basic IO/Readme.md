@@ -5,12 +5,12 @@ Learn about asking data from the users and how to use f-strings.
 
 ## Task
 Write a simple program where:
-- The program ask the user for thei name and age.
+- The program ask the user for their name and age.
 - Outputs a message saying: "Hello, [Name]! You are [Age] years old."
 
-# Theory
+## Theory
 
-## Variables
+### Variables
 
 Just like in other languages, many python codes keep some data in variables to work with them later.
 A variable is defined by its type and its value, however it is not required to define each variable before start working with them.
@@ -55,15 +55,15 @@ To do so, and considering only the three previous types, just write `int()`, `fl
 <class 'str'>
 ```
 
-> Warning: Not all variables can be type casted directly, as it depends on their value.
-> For example, the string "1.23" could be type casted into a 'float'. 
-> If it is casted into 'int', the final value would be just '1'.
-> However, if the string "Alice" is casted into 'int' or 'float', Python will raise an error as the conversion was not possible.
+> Warning: Not all variables can be type cast directly, as it depends on their value.
+> For example, the string "1.23" could be type cast into a 'float'. 
+> If it is cast into 'int', the final value would be just '1'.
+> However, if the string "Alice" is cast into 'int' or 'float', Python will raise an error as the conversion was not possible.
 
-## User input
+### User input
 
 Python contains some built-in functions which can be used without the need of importing other modules.
-One of these ones is the [`input()`](https://docs.python.org/3/library/functions.html#input) function.
+One of these is the [`input()`](https://docs.python.org/3/library/functions.html#input) function.
 
 The `input()` function works through the terminal and allows printing a message and reading a string from the user input.
 
@@ -75,10 +75,10 @@ How old are you?
 <class 'str'>
 ```
 
-## Formatting data into strings
+### Formatting data into strings
 
 As seen previously, variables can be easily printed into the terminal using `print()`.
-However, there migth be cases where you want to format all data together into a single string for several reasons:
+However, there might be cases where you want to format all data together into a single string for several reasons:
 - You avoid multiple `print()` statements.
 - The final call is simpler.
 - The code looks cleaner and is more readable.
