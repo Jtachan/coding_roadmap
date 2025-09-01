@@ -60,6 +60,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea
 
 # Linters / Formatters
 .ruff_cache/
