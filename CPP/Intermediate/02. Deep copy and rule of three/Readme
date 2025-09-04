@@ -1,0 +1,26 @@
+# Exercise 2: Deep Copy and the Rule of Three
+## Objective
+- Learn how to implement proper copy constructors, assignment operators, and destructors to manage resources in classes that handle dynamic memory. 
+- Understand the Rule of Three, which states that if a class requires a user-defined destructor, copy constructor, or copy assignment operator, it probably requires all three.
+
+# Task:
+1. Create a class IntArray that:
+    - Dynamically allocates an array of integers.
+    - Implements the Rule of Three by providing:
+        - A destructor to free the allocated memory.
+        - A copy constructor to perform a deep copy of the object.
+        - A copy assignment operator to properly assign one object to another.
+2. The class should include:
+    - A constructor that takes an integer to specify the size of the array.
+    - A method to set the values of the array.
+    - A method to print the contents of the array.
+3. Test the deep copy by creating an object, copying it to another object, and modifying the original object. The changes should not affect the copied object (i.e., no shallow copying).
+
+## Expected Result
+- The copied object should have its own separate copy of the array, so modifying one object’s array should not affect the other’s.
+- No memory leaks should occur, and all resources should be properly managed.
+
+## Hints
+In the copy constructor, allocate new memory for the copied object and copy the elements manually.
+In the assignment operator, check for self-assignment (i.e., when an object is assigned to itself).
+Ensure proper memory deallocation before reassigning memory in the assignment operator.

@@ -34,5 +34,6 @@ Additionally, within each exercise folder are contained the `.cpp` and `.h` file
     - [13: Polimorphism](Beginner/13.%20Polymorphism/README.md)
     - [14: Makefiles](Beginner/14.%20Makefiles/README.md)
     - [15: Final project](Beginner/15.%20Final%20Project/README.md)
-- Intermediate: (TBD)
+- Intermediate:
+    - [01: Dynamic Memory Management](Intermediate/01.%20Dynamic%20memory%20management/Readme.md)
 - Advanced: (TBD)
