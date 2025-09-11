@@ -14,3 +14,5 @@ Consider also looking into other branches for unfinished set of exercises.
 
 - [**C/C++**](CPP)
   - Beginner
+- [**Python**](Python)
+  - Beginner
