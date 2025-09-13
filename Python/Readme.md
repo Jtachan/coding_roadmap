@@ -27,7 +27,7 @@ Each exercise is defined with a 'readme' file, containing the following sections
     - [03: Conditional statements](Beginner/03.%20Conditional%20statements/Readme.md)
     - [04: While loops](Beginner/04.%20While%20loops/Readme.md)
     - [05: For loops](Beginner/05.%20For%20loops/Readme.md)
-    - [06: Sequences and iterables](Beginner/06.%20Sequences%20and%20iterables/Readme.md)
+    - [06: Sequences and iterables](Beginner/06.%20Sequence%20and%20iterables/Readme.md)
     - [07: Functions and type hints](Beginner/07.%20Functions/Readme.md)
     - [08: Exceptions handling](Beginner/08.%20Exceptions/Readme.md)
     - [09: File Input/Output](Beginner/09.%20File%20IO/Readme.md)

@@ -36,7 +36,7 @@ std::cout << "You wrote the number " << number << std::endl;
 ```
 
 The manipulator `std::endl` writes the special character `\n` (new line) and flushes the buffer. 
-In other words, the output is inmediately shown on the terminal.
+In other words, the output is immediately shown on the terminal.
 
 Writing `std::endl` and `\n` are different, as `\n` does not flush the buffer and it is faster.
 Try to use `std::endl` only when the output is to be shown immediately or the code is done using the console.

@@ -15,7 +15,7 @@ Create a BankAccount class that represents a simple bank account with basic oper
   - double get_balance() const: Returns the current balance.
   - std::string get_account_holder() const: Returns the name of the account holder.
   - int get_account_number() const: Returns the account number.
-- Error Handling: Ensure that the withdraw method does not allow the balance to go negative. If the withdrawal amount exceeds the current balance, print an error message.
+- Error Handling: Ensure that the withdrawal method does not allow the balance to go negative. If the withdrawal amount exceeds the current balance, print an error message.
 
 In the main function, create an instance of the BankAccount class.
 Simulate some transactions like depositing money, withdrawing money, and printing the account balance after each transaction.

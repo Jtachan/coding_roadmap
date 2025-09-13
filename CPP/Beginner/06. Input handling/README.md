@@ -30,7 +30,7 @@ Thank you! You entered 50.
 ## Stream Flags
 
 You might have realised that, even though a variable can be defined as an integer, nothing stops the user to give an invalid type as an input.
-For example, the following promt might be correct from the perspective of a user:
+For example, the following prompt might be correct from the perspective of a user:
 
 ```commandlinme
 Enter an integer between 1 and 100: 

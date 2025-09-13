@@ -31,7 +31,7 @@ Additionally, within each exercise folder are contained the `.cpp` and `.h` file
     - [10: Vectors](Beginner/10.%20Vectors/README.md)
     - [11: Classes and OOP](Beginner/11.%20OOP%20and%20Classes/README.md)
     - [12: Class inheritance](Beginner/12.%20Class%20inheritance/README.md)
-    - [13: Polimorphism](Beginner/13.%20Polymorphism/README.md)
+    - [13: Polymorphism](Beginner/13.%20Polymorphism/README.md)
     - [14: Makefiles](Beginner/14.%20Makefiles/README.md)
     - [15: Final project](Beginner/15.%20Final%20Project/README.md)
 - Intermediate: (TBD)

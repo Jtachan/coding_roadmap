@@ -39,7 +39,7 @@ if (condition) {
 } 
 ```
 
-Additionaly, an else-block can be added after the if-block.
+Additionally, an else-block can be added after the if-block.
 This contains code to execute when the previous condition was not met:
 
 ```cpp
@@ -50,7 +50,7 @@ if (condition) {
 }
 ```
 
-These blocks can be placed sequentially, definining different blocks of code for different conditions:
+These blocks can be placed sequentially, defining different blocks of code for different conditions:
 
 ```cpp
 if (condition_a) {

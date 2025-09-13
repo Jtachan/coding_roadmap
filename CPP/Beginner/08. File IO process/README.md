@@ -4,7 +4,7 @@ Practice reading from and writing to files in C++. This exercise will help you u
 
 ## Tasks
 
-- Create a Text File: Manually create a text file named "data.txt" in the same directory as your C++ program. Add the follwing numbers in the file:
+- Create a Text File: Manually create a text file named "data.txt" in the same directory as your C++ program. Add the following numbers in the file:
 
 ```commandline
 42
@@ -33,7 +33,7 @@ The program should print each number from data.txt to the console, display the s
 
 ## I/O stream classes for files
 
-To perform Input/Ouput operations with files, C++ requires the library `fstream` to be included.
+To perform Input/Output operations with files, C++ requires the library `fstream` to be included.
 Within this library, there can be found three classes:
 
 1. `std::ifstream` (Input File Stream) used to read data.

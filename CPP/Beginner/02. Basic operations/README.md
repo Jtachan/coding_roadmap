@@ -57,7 +57,7 @@ For example `std::string` can be defined when including `<string>`.
 
 ## Operations with variables
 
-The **basic operations** that can be perfomed in C++ are:
+The **basic operations** that can be performed in C++ are:
 
 - Sum (`+`): `int a = 1 + 2;`. As a result, `a = 3`.
 - Substraction (`-`): `int a = 1 - 2;`. As a result, `a = -1`.
