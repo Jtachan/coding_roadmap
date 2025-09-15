@@ -43,6 +43,40 @@ The following shows some of the most common operations with `lists`.
 
 > Feel free to read more about [lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) and [tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) in the official python documentation.
 
+### Indexing and slicing
+
+When working with lists and tuples, there are cases where we want to access a specific element or range of elements.
+These operations are called _indexing_ and _slicing_ respectively.
+
+**Indexing** is accessing a single element by providing the index of the element.
+All python arrays are zero-indexed, so the first element has index 0, the second has index 1, and so on.
+
+**Slicing** is accessing a range of elements by providing the start and end indexes.
+While the function `slice()` allow defining slices, most of them are defined with the notation `[start:end]`.
+When using slices, it is also possible to define a step size as `[start:end:step]`.
+
+Both indexing and slicing are possible with lists, tuples and strings.
+
+```pycon
+>>> my_list = [1, 2, 3, 4, 5]
+>>> my_list[0]  # Access the first element.
+1
+>>> my_list[3]  # Access the fourth element.
+4
+>>> my_list[::-1]  # Accessing all elements in reverse order.
+[5, 4, 3, 2, 1]
+>>> my_str = "Hello world!"
+>>> my_str[:5]  # Accessing from the first element (included) to the fifth element (excluded).
+'Hello'
+>>> my_str[6:]
+'world!'
+```
+
+As you can see in the slicing examples, when some values are not provided python uses some default values:
+- `start`: 0
+- `end`: The length of the array
+- `step`: 1
+
 ## Sets
 
 A `set` in python is defined as a collection of unique elements.
