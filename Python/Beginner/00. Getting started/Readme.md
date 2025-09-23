@@ -43,10 +43,14 @@ At last, activate the virtual environment to work with it.
 .venv\Scripts\activate
 ```
 
+> Note: WindowsPaths use `\` as the path separator to refer to folders.
+
 **On Linux**
 ```
-.venv/bin/activate
+. .venv/bin/activate
 ```
+> Note: LinuxPath uses `/` as the path separator. 
+> It is also required to specify `.` (followed by a space) as the source path.
 
 ## Coding in Python
 

@@ -57,7 +57,7 @@ student_a.say_hello()
 
 ## Polymorphism
 
-The polymorphism is the ability to use the same method name for different objects.
+Polymorphism is the ability to use the same method name for different objects.
 In other words, the same method is overwritten by the child class (for whatever reason).
 
 To do this, the child class must define the same method as in the parent class.
