@@ -1,3 +1,5 @@
+use std::io;
+
 fn main() {
     /* -------------------------------
         VARIABLES AND MUTABILITY
@@ -18,8 +20,8 @@ fn main() {
     println!("The value of x (outer scope again) is: {x}");
 
     // Shadowing allows to change the type. The variable MUST be shadowed, it cannot just be a mutable variable
-    let spaces = "   ";  // Type string
-    let spaces = spaces.len();  // Type integer
+    let _spaces = "   ";  // Type string
+    let _spaces = _spaces.len();  // Type integer
 
     // Constants are defined with the 'const'
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
@@ -51,7 +53,7 @@ fn main() {
     // Rust has tuples just like python, they are defined by defining the types of the elements it contains:
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     // And just like in Python, the values can be extracted.
-    let (x, y, z) = tup;
+    let (_x, y, _z) = tup;
     println!("The value of y (extracted from the tuple) is: {y}");
 
     // The arrays must have all elements of the same type. The type hint is defined as [type; len]
@@ -59,6 +61,17 @@ fn main() {
     // Accessing the elements works just like in other languages (0-indexed)
     let first = arr[0];
     println!("The value of the first element: {first}");
+    // Arrays can also be initialized as a sequence of the same element:
+    let _arr = [3; 5];  // arr = [3, 3, 3, 3, 3]
 
+    // Function call
+    another_function();
+
+    // Functions
     println!("");
+}
+
+// Functions are defined with the fn annotation:
+fn another_function() {
+    println!("Another function.");
 }
