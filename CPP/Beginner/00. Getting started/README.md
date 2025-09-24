@@ -64,5 +64,29 @@ At this repo, I will continue with the VisualStudio code.
 You can download it from the [official website](https://code.visualstudio.com/download).
 Once downloaded, install is but don't open it yet.
 
+### C++ Compiler
+
+Once you have installed VS Code you need to do two extra steps:
+
+- **Install the C/C++ extensions for VS Code**. You can do this from the 'extensions' tab that VS Code provides. Make sure to install the one named "_C/C++ Extension Pack_" (developed by Microsoft).
+- **Install MinGW toolchain**. This will act as our C++ compiler (required to call `g++` or to create any object/executable).
+
+On further explanation to install **MinGW** (on Windows) it is recommended to install [MSYS2](https://www.msys2.org/).
+Follow the installation steps displayed at the page.
+Now, to install the toolchain, open the MSYS2 terminal and write the following command:
+
+```shell
+pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+```
+
+Once all the packages have been installed, add the path of your MinGW-w64 `bin` folder to the Windows `PATH` environment variable.
+
+To **check**
+
 ## Make for Windows
+
+The `make` is a common used command for large C/C++ projects, which is different to `CMake`.
+This is required for exercise 14 and 15.
+
+Install [Make for Windows](https://www.gnu.org/software/make/) following the steps from the original page.
 
