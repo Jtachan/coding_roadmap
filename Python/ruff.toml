@@ -1,0 +1,70 @@
+# Enforcing line length greater than 88:
+line-length = 120
+# Ruff report as a concise list of all issues:
+output-format = "concise"
+
+[format]
+docstring-code-format = true
+skip-magic-trailing-comma = true
+
+[lint]
+select = [
+    "A",    # flake8-builtins
+    "ANN",  # flake8-annotations
+    "ARG",  # flake8-unused-arguments
+    "B",    # flake8-bugbear
+    "BLE",  # flake8-blind-except
+    "C4",   # flake8-comprehensions
+    "E",    # pycodestyle error
+    "F",    # Pyflakes
+    "I",    # isort
+    "ICN",  # flake8-import-conventions
+    "ISC",  # flake8-implicit-str-concat
+    "N",    # pep8-naming
+    "NPY",  # NumPy-specific rules
+    "PD",   # pandas-vet
+    "PIE",  # flake8-pie
+    "PL",   # pylint
+    "PT",   # flakeru8-pytest
+    "RUF",  # Ruff-specific rules
+    "TC",   # flake8-type-checking
+    "W",    # pycodestyle warning
+]
+ignore = [
+    "ANN002",   # missing type for *args
+    "ANN003",   # missing type for **kwargs
+    "PLR6301",  # no-self-use
+    "PLR0913",  # too-many-arguments
+    "PLR0904",  # too-many-public-methods
+    "PLR0916",  # too-many-boolean-expressions
+    "PLR0912",  # too-many-branches
+    "PLR0904",  # too-many-public-methods
+    "PLR0911",  # too-many-return-statements
+    "PLR0914",  # too-many-local-variables
+    "PLR0915",  # too-many-statements
+    "PLR0917",  # too-many-positional-arguments
+    "PLR6201",  # use literal set
+    "PLC1901",  # compare-to-empty-string
+    "PLR2004",  # magic-value-comparison
+]
+preview = true
+
+[lint.flake8-annotations]
+allow-star-arg-any = true
+mypy-init-return = true
+suppress-none-returning = true
+
+[lint.flake8-unused-arguments]
+ignore-variadic-names = true
+
+[lint.isort]
+split-on-trailing-comma=false
+
+[lint.pycodestyle]
+ignore-overlong-task-comments = true
+
+[lint.pydocstyle]
+convention = "numpy"
+
+[lint.pylint]
+max-args = 10
