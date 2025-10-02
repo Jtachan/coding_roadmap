@@ -16,3 +16,4 @@ Consider also looking into other branches for unfinished set of exercises.
   - Beginner
 - [**Python**](Python)
   - Beginner
+- [**Rust**](rust)
